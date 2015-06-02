@@ -113,6 +113,7 @@ projects[adaptivetheme][subdir] = "_base"
 projects[bootstrap][subdir] = "_base"
 projects[omega][subdir] = "_base"
 projects[radix][subdir] = "_base"
+projects[zen][version] = "6.x-dev"
 projects[zen][subdir] = "_base"
 
 projects[adminimal_theme][subdir] = "_admin"
