@@ -1,0 +1,16 @@
+INSTALL:
+------------
+- Upon install, clean URL is not enabled by default
+- Panopoly ask for app download write permissions in sites/all and sites/all/modules
+- Panopoly does not use already downloaded apps?
+- Enable Panopoly default content (Demo, News, FAQ)
+- Default user, mail, time settings
+- Use drush to generate subthemes?
+
+Adaptive theme generate subtheme in profile
+Bootstrap cannot generate subtheme in drush
+move libraries to sites/all/
+Radix does not have production in SASS files, generate line numbers
+omega pulls obsolete libraries from fubhy github
+respond.js library is included by ___ in (respondjs) and also by omega in (respond)
+
