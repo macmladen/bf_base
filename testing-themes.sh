@@ -1,52 +1,63 @@
 #!/bin/bash
-
+PATH=/Users/mladen/Sites/drush/:$PATH
 # Testing themes by setting and then downloading resulting html of home page
-dr vset theme_default
 
 # Testing Bartik
-dr vset theme_default bartik
-curl http://mybfbase.loc > bartik.html
+drush -r ../mybfbase.loc vset theme_default bartik
+curl -Ls http://mybfbase.loc > theme_html/bartik.html
+read -n 1
 
 # Testing Seven
-dr vset theme_default seven
-curl http://mybfbase.loc > seven.html
+drush -r ../mybfbase.loc vset theme_default seven
+curl -Ls http://mybfbase.loc > theme_html/seven.html
+read -n 1
 
 # Testing Stark
-dr vset theme_default stark
-curl http://mybfbase.loc > stark.html
+drush -r ../mybfbase.loc vset theme_default stark
+curl -Ls http://mybfbase.loc > theme_html/stark.html
+read -n 1
 
 # Testing Responsive_bartik
-dr vset theme_default responsive_bartik
-curl http://mybfbase.loc > responsive_bartik.html
+drush -r ../mybfbase.loc vset theme_default responsive_bartik
+curl -Ls http://mybfbase.loc > theme_html/responsive_bartik.html
+read -n 1
 
 # Testing Adaptive_cat
-dr vset theme_default adaptive_cat
-curl http://mybfbase.loc > adaptive_cat.html
+drush -r ../mybfbase.loc vset theme_default adaptive_cat
+curl -Ls http://mybfbase.loc > theme_html/adaptive_cat.html
+read -n 1
 
 # Testing Boot_cat
-dr vset theme_default boot_cat
-curl http://mybfbase.loc > boot_cat.html
+drush -r ../mybfbase.loc vset theme_default boot_cat
+curl -Ls http://mybfbase.loc > theme_html/boot_cat.html
+read -n 1
 
 # Testing Omega_cat
-dr vset theme_default omega_cat
-curl http://mybfbase.loc > omega_cat.html
+drush -r ../mybfbase.loc vset theme_default omega_cat
+curl -Ls http://mybfbase.loc > theme_html/omega_cat.html
+read -n 1
 
 # Testing Omega_ohm
-dr vset theme_default omega_ohm
-curl http://mybfbase.loc > omega_ohm.html
+drush -r ../mybfbase.loc vset theme_default omega_ohm
+curl -Ls http://mybfbase.loc > theme_html/omega_ohm.html
+read -n 1
 
 # Testing Radix_default
-dr vset theme_default radix_default
-curl http://mybfbase.loc > radix_default.html
+drush -r ../mybfbase.loc vset theme_default radix_default
+curl -Ls http://mybfbase.loc > theme_html/radix_default.html
+read -n 1
 
 # Testing Radix_simplex
-dr vset theme_default radix_simplex
-curl http://mybfbase.loc > radix_simplex.html
+drush -r ../mybfbase.loc vset theme_default radix_simplex
+curl -Ls http://mybfbase.loc > theme_html/radix_simplex.html
+read -n 1
 
 # Testing Radix_spacelab
-dr vset theme_default radix_spacelab
-curl http://mybfbase.loc > radix_spacelab.html
+drush -r ../mybfbase.loc vset theme_default radix_spacelab
+curl -Ls http://mybfbase.loc > theme_html/radix_spacelab.html
+read -n 1
 
 # Testing Zen_cat
-dr vset theme_default zen_cat
-curl http://mybfbase.loc > zen_cat.html
+drush -r ../mybfbase.loc vset theme_default zen_cat
+curl -Ls http://mybfbase.loc > theme_html/zen_cat.html
+read -n 1
