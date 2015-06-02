@@ -81,3 +81,44 @@ projects[contextual_tabs][subdir] = contrib
 
 ; *********** End Open Atrium Contrib ************
 ; ************************************************
+
+; ------------------------------------------------
+; BF Base modules and themes
+
+; MODULES
+; =======
+
+; modules/_admin:
+projects[addanother][subdir] = "contrib/_admin"
+projects[styleguide][subdir] = "contrib/_theming"
+projects[radix_admin][subdir] = "contrib/_theming"
+projects[radix_views][subdir] = "contrib/_theming"
+projects[fences][subdir] = "contrib/_system"
+projects[browscap][subdir] = "contrib/_responsive"
+projects[browscap_ctools][subdir] = "contrib/_responsive"
+projects[mobile_detect][subdir] = "contrib/_responsive"
+projects[elements][subdir] = "contrib/_html5"
+projects[html5_tools][subdir] = "contrib/_html5"
+projects[context][subdir] = "contrib/_system"
+projects[rules][subdir] = "contrib/_system"
+projects[picture][subdir] = "contrib/_media"
+; panopoly demo content
+projects[panopoly_demo][subdir] = "contrib/_panopoly_demo"
+projects[panopoly_faq][subdir] = "contrib/_panopoly_demo"
+projects[panopoly_news][subdir] = "contrib/_panopoly_demo"
+
+; THEMES
+; =======
+projects[adaptivetheme][subdir] = "_base"
+projects[bootstrap][subdir] = "_base"
+projects[omega][subdir] = "_base"
+projects[radix][subdir] = "_base"
+projects[zen][subdir] = "_base"
+
+projects[adminimal_theme][subdir] = "_admin"
+projects[cube][subdir] = "_admin"
+projects[ember][subdir] = "_admin"
+projects[rubik][subdir] = "_admin"
+projects[shiny][subdir] = "_admin"
+projects[stanley][subdir] = "_admin"
+projects[tao][subdir] = "_admin"
